@@ -1,0 +1,144 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 9.5fr 9.5fr 2fr;
+    grid-template-rows: 138px 92px 138px 161px;
+    width: 975px;
+    justify-self: center;
+    align-self: center;
+    grid-template-areas:
+        ". text1 card1 text2"
+        "card_peque1 card3 card4 card5"
+        "card2 card3 card4 card_peque2"
+        "text7 card6 text8 .";
+    position: relative;
+    gap: 12px;
+}
+
+.card1 {
+    background-color: rgb(84, 84, 255);
+    grid-area: card1;
+    width: 182px;
+}
+
+.card_pequeno1 {
+    background-color: rgb(144, 143, 143);
+    grid-area: card_peque1;
+    width: 100px;
+    justify-self: end;
+}
+
+.card2 {
+    background-color: rgb(255, 84, 235);
+    grid-area: card2;
+    width: 182px;
+    height: 138px;
+    align-self: flex-end;
+}
+
+.card3 {
+    background-color: rgb(75, 194, 89);
+    grid-area: card3;
+}
+
+.card4 {
+    background-color: rgb(235, 56, 56);
+    grid-area: card4;
+}
+
+.card5 {
+    background-color: rgb(231, 240, 102);
+    grid-area: card5;
+    width: 182px;
+    height: 138px;
+}
+
+.card_pequeno2 {
+    grid-area: card_peque2;
+    background-color: rgb(144, 143, 143);
+    height: 92px;
+    width: 100px;
+    align-self: flex-end;
+}
+
+.card6 {
+    background-color: rgb(111, 86, 185);
+    grid-area: card6;
+    width: 182px;
+    justify-self: flex-end;
+}
+
+.texto1 {
+    grid-area: text1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.texto1 p {
+    text-align: end;
+}
+
+.texto2 {
+    grid-area: text2;
+}
+
+.texto3 {
+    position: absolute;
+    top: 59px;
+    width: 216px;
+    left: -145px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.texto3 p {
+    text-align: end;
+}
+
+.texto4 {
+    position: absolute;
+    right: -212px;
+    width: 200px;
+    top: 132px;
+}
+
+
+.texto5 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    top: 201px;
+    left: -194px;
+}
+
+.texto6 {
+    position: absolute;
+    width: 200px;
+    right: -136px;
+    top: 290px;
+}
+
+.texto7 {
+    grid-area: text7;
+}
+
+.texto8 {
+    grid-area: text8;
+}

@@ -142,7 +142,7 @@
 .texto8 {
     grid-area: text8;
 }
-
+/* 
 @media screen and (max-width: 1025px) {
     .container {
         width: 700px;
@@ -173,12 +173,12 @@
         height: 138px;
     }
 
-}
-
+} */
+/* 
 @media screen and (max-width: 730px) {
     .container {
         width: 350px ;
     }
 
    
-}
+} */

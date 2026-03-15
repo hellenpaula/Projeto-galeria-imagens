@@ -142,3 +142,43 @@
 .texto8 {
     grid-area: text8;
 }
+
+@media screen and (max-width: 1025px) {
+    .container {
+        width: 700px;
+    }
+
+     .card1 {
+        width: 149px;
+    }
+
+    .card2 {
+        width: 149px;
+    }
+
+    .card3 {
+        width: 202px;
+    }
+
+    .card4 {
+        width: 202px;
+    }
+
+    .card5 {
+        width: 149px;
+    }
+
+    .card6{
+        width: 149px;
+        height: 138px;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    .container {
+        width: 350px ;
+    }
+
+   
+}

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(assets/fonts/HelveticaNeueLight.otf);
+}
 
 * {
     padding: 0;
@@ -43,6 +49,8 @@
         "card_peque1 card_peque2"
         "text7 text8";
     margin: 153px 0px;
+    /* font-family: "HelveticaNeue"; */
+    font-family: "Roboto";
 }
 
 .card1 {
@@ -179,7 +187,19 @@
     text-align: center;
 }
 
+.titulo_texto {
+    font-size: 16px;
+}
 
+.descricao_texto {
+    font-size: 13px;
+    color: rgb(95, 95, 95);
+}
+
+.paragrafo_texto {
+    font-size: 12px;
+    color: rgb(95, 95, 95);
+}
 /* 
 @media screen and (max-width: 1025px) {
     .container {

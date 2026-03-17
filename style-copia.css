@@ -8,16 +8,53 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Roboto";
 }
 
 .main {
     display: flex;
-    
+    flex-direction: column;
     justify-content: center;
     height: 100vh;
     align-items: center;
-    margin: 60px 0;
+    /* margin: 384px 0 120px 0; */
     
+    
+}
+
+.area_intro {
+    position: absolute;
+    margin-bottom: 317px;
+    /* bottom: 613px; */
+    text-align: center;
+}
+
+.titulo_area_intro {
+    position: absolute;
+    
+    font-size: 25px;
+    font-weight: 500;
+    width: 411px;
+    bottom: 35px;
+}
+
+.descricao_area_intro1, .descricao_area_intro2 {
+    position: absolute;
+    width: 411px;
+    color: rgb(87 87 87);
+    font-size: 14px;
+    line-height: 20px;
+    bottom: -33px;
+}
+
+
+.descricao_area_intro2 {
+    
+    bottom: -81px;
+}
+
+.linha_quebra {
+    margin: 10px 0;
 }
 
 .container {
@@ -301,8 +338,24 @@
 }
   */
 
+@media screen and (orientation: landscape) {
+
+    .area_intro {
+        bottom: 406px;
+    }
+    
+}
+
+
 
 @media screen and (min-width: 830px) {
+
+    .main {
+        /* margin: 230px 0 120px 0; */
+    }
+
+
+
     .container {
     display: grid;
     /* grid-template-columns: 10fr 9.5fr 9.5fr 2fr; */
@@ -327,9 +380,27 @@
         
 }
 
+    .area_intro {
+        /* bottom: 530px; */
+        /* left: 172px; */
+        text-align: center;
+    }
+
+    .titulo_area_intro {
+        bottom: -30px;
+    }
+
+    .descricao_area_intro1, .descricao_area_intro2 {
+        bottom: -98px;
+    }
+
     .card1 {
         width: 171px;
         justify-self: end;
+    }
+
+    .descricao_area_intro2 {
+        bottom: -146px;
     }
 
     .card_pequeno1 {
@@ -486,6 +557,10 @@
 
 @media screen and (min-width: 1300px) {
     
+    .main {
+        padding: 271px  0 0 0;
+    }
+
 .container {
     display: grid;
     grid-template-columns: 2fr 9.5fr 9.5fr 2fr;
@@ -500,6 +575,33 @@
         "text7 card6 text8 .";
     position: relative;
     gap: 12px;
+}
+
+
+.area_intro {
+        bottom: 471px; 
+        width: 87%;
+        margin: 126px 46px 150px 163px;
+        text-align: center;
+}
+
+
+.titulo_area_intro {
+    position: absolute;
+    bottom: 24px;
+    /* left: 259px; */
+    font-size: 25px;
+    font-weight: 500;
+    width: 400px;
+}
+
+
+.descricao_area_intro1, .descricao_area_intro2 {
+    bottom: -48px;
+}
+
+.descricao_area_intro2 {
+    bottom: -93px;
 }
 
 .card1 {

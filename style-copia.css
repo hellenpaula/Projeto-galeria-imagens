@@ -90,7 +90,7 @@
 }
 
 .card1 {
-    background-color: rgb(84, 84, 255);
+    /* background-color: rgb(84, 84, 255); */
     grid-area: card1;
     /* width: 182px; */
 }
@@ -104,14 +104,14 @@
 
 
 .card_pequeno1 {
-    background-color: rgb(144, 143, 143);
+    /* background-color: rgb(144, 143, 143); */
     grid-area: card_peque1;
     /* width: 100px; */
     /* justify-self: end; */
 }
 
 .card2 {
-    background-color: rgb(255, 84, 235);
+    /* background-color: rgb(255, 84, 235); */
     grid-area: card2;
     /* width: 182px; */
     /* height: 138px; */
@@ -119,17 +119,17 @@
 }
 
 .card3 {
-    background-color: rgb(75, 194, 89);
+    /* background-color: rgb(75, 194, 89); */
     grid-area: card3;
 }
 
 .card4 {
-    background-color: rgb(235, 56, 56);
+    /* background-color: rgb(235, 56, 56); */
     grid-area: card4;
 }
 
 .card5 {
-    background-color: rgb(231, 240, 102);
+    /* background-color: rgb(231, 240, 102); */
     grid-area: card5;
     /* width: 182px; */
     /* height: 138px; */
@@ -137,14 +137,14 @@
 
 .card_pequeno2 {
     grid-area: card_peque2;
-    background-color: rgb(144, 143, 143);
+    /* background-color: rgb(144, 143, 143); */
     /* height: 92px; */
     /* width: 100px; */
     /* align-self: flex-end; */
 }
 
 .card6 {
-    background-color: rgb(111, 86, 185);
+    /* background-color: rgb(111, 86, 185); */
     grid-area: card6;
     /* width: 182px; */
     /* justify-self: flex-end; */

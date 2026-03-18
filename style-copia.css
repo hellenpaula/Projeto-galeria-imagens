@@ -14,7 +14,6 @@
 .main {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     height: 100vh;
     align-items: center;
     padding: 240px 0 118px 0;
@@ -22,15 +21,12 @@
 
 .area_intro {
     position: absolute;
-    /* margin-bottom: 317px; */
-    /* bottom: 613px; */
     text-align: center;
     margin: -92px 380px 950px -5px;
 }
 
 .titulo_area_intro {
     position: absolute;
-    
     font-size: 25px;
     font-weight: 500;
     width: 411px;
@@ -48,7 +44,6 @@
 
 
 .descricao_area_intro2 {
-    
     bottom: -81px;
 }
 
@@ -59,16 +54,8 @@
 .container {
     
     display: grid;
-    /* grid-template-columns: 2fr 9.5fr 9.5fr 2fr; */
-    /* grid-template-rows: 138px 92px 138px 161px; */
-    /* width: 975px; */
     justify-self: center;
     align-self: center;
-    /* grid-template-areas:
-        ". text1 card1 text2"
-        "card_peque1 card3 card4 card5"
-        "card2 card3 card4 card_peque2"
-        "text7 card6 text8 ."; */
     position: relative;
     gap: 12px;
     width: 350px;
@@ -85,15 +72,11 @@
         "card_peque1 card_peque2"
         "text7 text8";
     margin: 153px 0px;
-    /* font-family: "HelveticaNeue"; */
-    font-family: "Roboto";
     padding: 0px 0px 0px 32px;
 }
 
 .card1 {
-    /* background-color: rgb(84, 84, 255); */
     grid-area: card1;
-    /* width: 182px; */
 }
 
 .img {
@@ -105,50 +88,31 @@
 
 
 .card_pequeno1 {
-    /* background-color: rgb(144, 143, 143); */
     grid-area: card_peque1;
-    /* width: 100px; */
-    /* justify-self: end; */
 }
 
 .card2 {
-    /* background-color: rgb(255, 84, 235); */
     grid-area: card2;
-    /* width: 182px; */
-    /* height: 138px; */
-    /* align-self: flex-end; */
 }
 
 .card3 {
-    /* background-color: rgb(75, 194, 89); */
     grid-area: card3;
 }
 
 .card4 {
-    /* background-color: rgb(235, 56, 56); */
     grid-area: card4;
 }
 
 .card5 {
-    /* background-color: rgb(231, 240, 102); */
     grid-area: card5;
-    /* width: 182px; */
-    /* height: 138px; */
 }
 
 .card_pequeno2 {
     grid-area: card_peque2;
-    /* background-color: rgb(144, 143, 143); */
-    /* height: 92px; */
-    /* width: 100px; */
-    /* align-self: flex-end; */
 }
 
 .card6 {
-    /* background-color: rgb(111, 86, 185); */
     grid-area: card6;
-    /* width: 182px; */
-    /* justify-self: flex-end; */
 }
 
 .texto1 {
@@ -156,13 +120,8 @@
     display: flex;
     flex-direction: column;
     text-align: end;
-    /* align-items: flex-end; */
 }
 
-
-.texto1 p {
-    /* text-align: end; */
-}
 
 .texto2 {
     grid-area: text2;
@@ -170,26 +129,14 @@
 }
 
 .texto3 {
-    /* position: absolute; */
-    /* top: 59px; */
-    /* width: 216px; */
-    /* left: -145px; */
     display: flex;
     flex-direction: column;
-    /* align-items: end; */
     grid-area: text3;
     text-align: end;
 }
 
-.texto3 p {
-    /* text-align: end; */
-}
 
 .texto4 {
-    /* position: absolute; */
-    /* right: -212px; */
-    /* width: 200px; */
-    /* top: 132px; */
     grid-area: text4;
     text-align: start;
 }
@@ -198,19 +145,12 @@
 .texto5 {
     display: flex;
     flex-direction: column;
-    /* position: absolute; */
-    /* width: 200px; */
-    /* top: 201px; */
-    /* left: -194px; */
     grid-area: text5;
     text-align: end;
 }
 
 .texto6 {
     position: absolute;
-    /* width: 200px; */
-    /* right: -136px; */
-    /* top: 290px; */
     grid-area: text6;
 }
 
@@ -251,7 +191,6 @@
 .paragrafo_texto {
     font-size: 12px;
     color: rgb(87 87 87);
-
 }
 
 
@@ -278,23 +217,14 @@
 
 .texto5 .etiqueta_info {
     width: 94px;
-    /* position: absolute; */
-    /* top: 129px; */
-    /* right: 1px; */
 }
 
 .texto4 .etiqueta_info {
     width: 61px;
-    /* position: absolute; */
-    /* top: 129px; */
-    /* right: 1px; */
 }
 
 .texto6 .etiqueta_info {
     width: 108px;
-    /* position: absolute; */
-    /* top: 129px; */
-    /* right: 1px; */
 }
 
 .texto7 .etiqueta_info {
@@ -304,39 +234,7 @@
 .texto8 .etiqueta_info {
     width: 75px;
 }
-/* 
-@media screen and (max-width: 1025px) {
-    .container {
-        width: 700px;
-    }
 
-     .card1 {
-        width: 149px;
-    }
-
-    .card2 {
-        width: 149px;
-    }
-
-    .card3 {
-        width: 202px;
-    }
-
-    .card4 {
-        width: 202px;
-    }
-
-    .card5 {
-        width: 149px;
-    }
-
-    .card6{
-        width: 149px;
-        height: 138px;
-    }
-
-}
-  */
 
 @media screen and (orientation: landscape) {
 
@@ -382,7 +280,6 @@
 @media screen and (min-width: 830px) {
 
     .main {
-        /* margin: 230px 0 120px 0; */
         padding: 106px 0 118px 0;
     }
 
@@ -390,8 +287,6 @@
 
     .container {
     display: grid;
-    /* grid-template-columns: 10fr 9.5fr 9.5fr 2fr; */
-    /* grid-template-rows: 138px 92px 138px 161px; */
   
     justify-self: center;
     align-self: center;
@@ -413,8 +308,6 @@
 }
 
     .area_intro {
-        /* bottom: 530px; */
-        /* left: 172px; */
         text-align: center;
         margin: -17px 399px 950px -5px;
     }
@@ -440,7 +333,6 @@
         height: 160px;
         position: relative;
         top: -265px;
-    
     }
 
     .card2 {
@@ -467,9 +359,7 @@
 
     .card_pequeno2 {
         height: 230px;
-    /* width: 100px; */
-    /* align-self: flex-end;*/
-    position: relative;
+        position: relative;
         top: -120px;
     
 
@@ -494,10 +384,6 @@
 }
 
 
-.texto1 p {
-    /* text-align: end; */
-}
-
 .texto2 {
     grid-area: text2;
     align-self: end;
@@ -521,17 +407,11 @@
 
 }
 
-.texto3 p {
-    /* text-align: end; */
-}
 
 .texto4 {
     position: absolute;
     top: -21px; 
     text-align: start;
-    /* right: -212px; */
-    /* width: 200px; */
-    
     grid-area: text4;
 }
 
@@ -544,10 +424,6 @@
     bottom: 274px;
     left: 31px;
     text-align: end;
-    /* position: absolute; */
-    /* width: 200px; */
-    /* top: 201px; */
-    /* left: -194px; */
     grid-area: text5;
     align-items: end;
 
@@ -558,9 +434,6 @@
     left: -60px;
     bottom: 125px;
     text-align: start;
-    /* width: 200px; */
-    /* right: -136px; */
-    /* top: 290px; */
     grid-area: text6;
 }
 
@@ -594,209 +467,205 @@
         padding: 197px 0 118px 0;
     }
 
-.container {
-    display: grid;
-    grid-template-columns: 2fr 9.5fr 9.5fr 2fr;
-    grid-template-rows: 161px 92px 138px 161px;
-    width: 900px;
-    justify-self: center;
-    align-self: center;
-    grid-template-areas:
-        ". text1 card1 text2"
-        "card_peque1 card3 card4 card5"
-        "card2 card3 card4 card_peque2"
-        "text7 card6 text8 .";
-    position: relative;
-    gap: 12px;
-}
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 9.5fr 9.5fr 2fr;
+        grid-template-rows: 161px 92px 138px 161px;
+        width: 900px;
+        justify-self: center;
+        align-self: center;
+        grid-template-areas:
+            ". text1 card1 text2"
+            "card_peque1 card3 card4 card5"
+            "card2 card3 card4 card_peque2"
+            "text7 card6 text8 .";
+        position: relative;
+        gap: 12px;
+    }
 
 
-.area_intro {
-        /* bottom: 471px;  */
-        /* width: 87%; */
+    .area_intro {
         margin: -72px 1020px 956px -5px;
         text-align: center;
-}
+    }
 
 
-.titulo_area_intro {
-    position: absolute;
-    bottom: 24px;
-    /* left: 259px; */
-    font-size: 25px;
-    font-weight: 500;
-    width: 400px;
-}
+    .titulo_area_intro {
+        position: absolute;
+        bottom: 24px;
+        font-size: 25px;
+        font-weight: 500;
+        width: 400px;
+    }
 
 
-.descricao_area_intro1, .descricao_area_intro2 {
-    bottom: -48px;
-}
+    .descricao_area_intro1, .descricao_area_intro2 {
+        bottom: -48px;
+    }
 
-.descricao_area_intro2 {
-    bottom: -93px;
-}
+    .descricao_area_intro2 {
+        bottom: -93px;
+    }
 
-.card1 {
-    background-color: rgb(84, 84, 255);
-    grid-area: card1;
-    width: 182px;
-    justify-self: normal;
-}
+    .card1 {
+        background-color: rgb(84, 84, 255);
+        grid-area: card1;
+        width: 182px;
+        justify-self: normal;
+    }
 
-.card_pequeno1 {
-    background-color: rgb(144, 143, 143);
-    grid-area: card_peque1;
-    height: 92px;
-    width: 100px;
-    justify-self: end;
-    position: static;
-}
+    .card_pequeno1 {
+        background-color: rgb(144, 143, 143);
+        grid-area: card_peque1;
+        height: 92px;
+        width: 100px;
+        justify-self: end;
+        position: static;
+    }
 
-.card2 {
-    background-color: rgb(255, 84, 235);
-    grid-area: card2;
-    width: 182px;
-    height: 138px;
-    align-self: flex-end;
-}
+    .card2 {
+        background-color: rgb(255, 84, 235);
+        grid-area: card2;
+        width: 182px;
+        height: 138px;
+        align-self: flex-end;
+    }
 
-.card3 {
-    background-color: rgb(75, 194, 89);
-    grid-area: card3;
-    height: 242px;
-}
+    .card3 {
+        background-color: rgb(75, 194, 89);
+        grid-area: card3;
+        height: 242px;
+    }
 
-.card4 {
-    background-color: rgb(235, 56, 56);
-    grid-area: card4;
-    height: 242px;
-}
+    .card4 {
+        background-color: rgb(235, 56, 56);
+        grid-area: card4;
+        height: 242px;
+    }
 
-.card5 {
-    background-color: rgb(231, 240, 102);
-    grid-area: card5;
-    width: 182px;
-    height: 138px;
-    position: static;
-    justify-self:normal;
-}
+    .card5 {
+        background-color: rgb(231, 240, 102);
+        grid-area: card5;
+        width: 182px;
+        height: 138px;
+        position: static;
+        justify-self:normal;
+    }
 
-.card_pequeno2 {
-    grid-area: card_peque2;
-    background-color: rgb(144, 143, 143);
-    height: 92px;
-    width: 100px;
-    align-self: flex-end;
-    position: static;
-}
+    .card_pequeno2 {
+        grid-area: card_peque2;
+        background-color: rgb(144, 143, 143);
+        height: 92px;
+        width: 100px;
+        align-self: flex-end;
+        position: static;
+    }
 
-.card6 {
-    background-color: rgb(111, 86, 185);
-    grid-area: card6;
-    width: 182px;
-    justify-self: flex-end;
-    position: static;
-}
+    .card6 {
+        background-color: rgb(111, 86, 185);
+        grid-area: card6;
+        width: 182px;
+        justify-self: flex-end;
+        position: static;
+    }
 
-.texto1 {
-    grid-area: text1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: absolute;
-    left: 61px;
-    bottom: 1px;
-}
-
-.texto1 p {
-    text-align: end;
-}
-
-.texto2 {
-    grid-area: text2;
-    position: absolute;
-    bottom: 1px;
-    right: 60px;
-    text-align: start;
-}
-
-.texto3 {
-    position: absolute;
-    top: 127px;
-    width: 216px;
-    left: -119px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-
-.texto3 p {
-    text-align: end;
-}
-
-.texto4 {
-    position: absolute;
-    right: -174px;
-    width: 157px;
-    top: 145px;
-}
-
-
-.texto5 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 152px;
-    top: 278px;
-    left: -167px;
-}
-
-.texto6 {
-    position: absolute;
-    width: 200px;
-    left: 865px;
-    top: 320px;
-}
-
-.texto7 {
-    grid-area: text7;
-    bottom: 2px;
-    text-align: end;
-    left: 62px;
-}
-
-.texto8 {
-    grid-area: text8;
-    bottom: 0px;
-    left: 2px;
-    text-align: start;
-    
-}
-
-.texto1, .texto2, .texto3, .texto6, .texto7, .texto8 {
-    width: 189px;
-
-    display: flex;
+    .texto1 {
+        grid-area: text1;
+        display: flex;
         flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        left: 61px;
+        bottom: 1px;
+    }
 
-}
+    .texto1 p {
+        text-align: end;
+    }
 
-.texto1, .texto3, .texto5, .texto7 {
-    align-items: end;
-}
+    .texto2 {
+        grid-area: text2;
+        position: absolute;
+        bottom: 1px;
+        right: 60px;
+        text-align: start;
+    }
 
-.texto2, .texto8 {
-    align-items: start;
-}
+    .texto3 {
+        position: absolute;
+        top: 127px;
+        width: 216px;
+        left: -86px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
 
-.texto5 .paragrafo_texto {
-    width:156px ;
-}
+    .texto3 p {
+        text-align: end;
+    }
 
-.texto4 .paragrafo_texto {
-    width:150px ;
-}
+    .texto4 {
+        position: absolute;
+        right: -174px;
+        width: 157px;
+        top: 145px;
+    }
+
+
+    .texto5 {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 152px;
+        top: 278px;
+        left: -132px;
+    }
+
+    .texto6 {
+        position: absolute;
+        width: 200px;
+        left: 865px;
+        top: 320px;
+    }
+
+    .texto7 {
+        grid-area: text7;
+        bottom: 2px;
+        text-align: end;
+        left: 62px;
+    }
+
+    .texto8 {
+        grid-area: text8;
+        bottom: 0px;
+        left: 2px;
+        text-align: start;
+        
+    }
+
+    .texto1, .texto2, .texto3, .texto6, .texto7, .texto8 {
+        width: 189px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto1, .texto3, .texto5, .texto7 {
+        align-items: end;
+    }
+
+    .texto2, .texto8 {
+        align-items: start;
+    }
+
+    .texto5 .paragrafo_texto {
+        width:156px ;
+    }
+
+    .texto4 .paragrafo_texto {
+        width:150px ;
+    }
 
    
 }   

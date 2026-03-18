@@ -508,14 +508,12 @@
     }
 
     .card1 {
-        background-color: rgb(84, 84, 255);
         grid-area: card1;
         width: 182px;
         justify-self: normal;
     }
 
     .card_pequeno1 {
-        background-color: rgb(144, 143, 143);
         grid-area: card_peque1;
         height: 92px;
         width: 100px;
@@ -524,7 +522,6 @@
     }
 
     .card2 {
-        background-color: rgb(255, 84, 235);
         grid-area: card2;
         width: 182px;
         height: 138px;
@@ -532,19 +529,16 @@
     }
 
     .card3 {
-        background-color: rgb(75, 194, 89);
         grid-area: card3;
         height: 242px;
     }
 
     .card4 {
-        background-color: rgb(235, 56, 56);
         grid-area: card4;
         height: 242px;
     }
 
     .card5 {
-        background-color: rgb(231, 240, 102);
         grid-area: card5;
         width: 182px;
         height: 138px;
@@ -562,7 +556,6 @@
     }
 
     .card6 {
-        background-color: rgb(111, 86, 185);
         grid-area: card6;
         width: 182px;
         justify-self: flex-end;

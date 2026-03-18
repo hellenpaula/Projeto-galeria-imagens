@@ -11,6 +11,10 @@
     font-family: "Roboto";
 }
 
+body {
+    background-color: #d2d2d217;
+}
+
 .main {
     display: flex;
     flex-direction: column;

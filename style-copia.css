@@ -87,6 +87,7 @@
     margin: 153px 0px;
     /* font-family: "HelveticaNeue"; */
     font-family: "Roboto";
+    padding: 0px 0px 0px 32px;
 }
 
 .card1 {
@@ -346,6 +347,11 @@
 }
 
 @media screen and (max-width: 360px) {
+
+    .main {
+        padding: 240px 0 118px 35px;
+    }
+
     .titulo_area_intro {
    
     width: 375px;
@@ -364,6 +370,11 @@
 
 .descricao_area_intro2 {
     bottom: -128px;
+}
+
+.container {
+    width: 320px;
+    padding: 0px 0px 0px 0px;
 }
 
 }

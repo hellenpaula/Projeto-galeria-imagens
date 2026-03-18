@@ -466,7 +466,7 @@
     }
 
     .card_pequeno2 {
-        height: 160px;
+        height: 230px;
     /* width: 100px; */
     /* align-self: flex-end;*/
     position: relative;
@@ -578,7 +578,7 @@
 .texto8 {
     grid-area: text8;
     position: absolute;
-    bottom: 402px;
+    bottom: 330px;
     left: 18px;
     display: flex;
     flex-direction: column;
@@ -755,7 +755,7 @@
 .texto6 {
     position: absolute;
     width: 200px;
-    left: 831px;
+    left: 865px;
     top: 320px;
 }
 

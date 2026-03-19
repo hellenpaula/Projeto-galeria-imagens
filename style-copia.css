@@ -11,6 +11,7 @@
     font-family: "Roboto";
 }
 
+
 body {
     background-color: #d2d2d217;
 }
@@ -239,6 +240,72 @@ body {
     width: 75px;
 }
 
+   
+.triangulo {
+    height: 0px;
+    width: 0px;
+    display: inline-block;
+    border-left: 10px solid #00000000;
+    border-right: 10px solid #00000000;
+    border-top: 11px solid #ffffffed;
+    
+}
+
+.triangulo1 {
+    rotate: 90deg;
+    position: absolute;
+    top: 25px;
+    right: 175px;
+}
+
+.triangulo2 {
+    rotate: 270deg;
+    position: absolute;
+    top: 235px;
+    right: 155px;
+}
+
+.triangulo3 {
+    rotate: 90deg;
+    position: absolute;
+    top: 447px;
+    right: 175px;
+}
+
+.triangulo4 {
+    rotate: 270deg;
+    position: absolute;
+    top: 665px;
+    right: 155px;
+}
+
+.triangulo5 {
+    rotate: 90deg;
+    position: absolute;
+    top: 874px;
+    right: 175px;
+}
+
+.triangulo6 {
+    rotate: 270deg;
+    position: absolute;
+    top: 1089px;
+    right: 155px;
+}
+
+.triangulo_pequeno1 {
+    rotate: 180deg;
+    position: absolute;
+    top: 1469px;
+    right: 255px;
+}
+
+.triangulo_pequeno2 {
+    rotate: 180deg;
+    position: absolute;
+    top: 1469px;
+    right: 75px;
+}
 
 @media screen and (orientation: landscape) {
 
@@ -463,6 +530,63 @@ body {
     width: 197px;
 }
 
+
+.triangulo1 {
+    rotate: 0deg;
+    position: absolute;
+    top: 300px;
+    right: 469px;
+}
+
+.triangulo_pequeno1 {
+    rotate: 180deg;
+    position: absolute;
+    top: 151px;
+    right: 105px;
+}
+
+.triangulo2 {
+    position: absolute;
+    rotate: 0deg;
+    top: 451px;
+    left: 501px;
+}
+
+.triangulo3 {
+    position: absolute;
+    rotate: -90deg;
+    top: 729px;
+    left: 178px;
+}
+
+.triangulo4 {
+    position: absolute;
+    rotate: 90deg;
+    top: 729px;
+    left: 644px;
+}
+
+.triangulo5 {
+    position: absolute;
+    rotate: 270deg;
+    top: 107px;
+    left: -6px;
+}
+
+.triangulo_pequeno2 {
+    position: absolute;
+    rotate: 180deg;
+    top: 220px;
+    left: 105px;
+}
+
+.triangulo6 {
+    position: absolute;
+    rotate: 90deg;
+    top: 259px;
+    left: 156px;
+}
+
 }
 
 @media screen and (min-width: 1300px) {
@@ -635,7 +759,7 @@ body {
 
     .texto8 {
         grid-area: text8;
-        bottom: 0px;
+        bottom: 25px;
         left: 2px;
         text-align: start;
         
@@ -663,6 +787,75 @@ body {
     .texto4 .paragrafo_texto {
         width:150px ;
     }
+
+    
+.triangulo {
+    height: 0px;
+    width: 0px;
+    display: inline-block;
+    border-left: 10px solid #00000000;
+    border-right: 10px solid #00000000;
+    border-top: 11px solid #ffffffed;
+    
+    
+}
+
+.triangulo1 {
+    rotate: 90deg;
+    position: absolute;
+    top: 20px;
+    right: 257px;
+}
+
+
+.triangulo_pequeno1 {
+    position: absolute;
+    rotate: -90deg;
+    top: 234px;
+    left: 109px
+}
+
+.triangulo_pequeno2 {
+    position: absolute;
+    rotate: 90deg;
+    top: 337px;
+    left: 836px;
+}
+
+.triangulo2 {
+    position: absolute;
+    rotate: -90deg;
+    top: 382px;
+    left: 26px;
+}
+
+.triangulo3 {
+    position: absolute;
+    rotate: 0deg;
+    top: 172px;
+    left: 438px;
+}
+
+.triangulo4 {
+    position: absolute;
+    rotate: 180deg;
+    top: 406px;
+    left: 509px;
+}
+
+.triangulo5 {
+    position: absolute;
+    rotate: 90deg;
+    top: 194px;
+    left: 919px;
+}
+
+.triangulo6 {
+    position: absolute;
+    rotate: 270deg;
+    top: 560px;
+    left: 289px;
+}
 
    
 }   
